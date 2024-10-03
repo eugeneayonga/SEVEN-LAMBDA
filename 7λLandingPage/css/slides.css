@@ -6997,7 +6997,7 @@ p.remind-43 {
   display: block;
   transition: 0.25s;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  text: #fff;
+  left: #fff;
 }
 .grid-64 .cell-64.rounded {
   border-radius: 6px;
@@ -7175,7 +7175,7 @@ p.remind-43 {
   display: block;
   transition: 0.25s;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  text: #fff;
+  left: #fff;
 }
 .grid-71 .cell-71.rounded {
   border-radius: 6px;
@@ -7208,7 +7208,7 @@ p.remind-43 {
   display: block;
   transition: 0.25s;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  text: #fff;
+  left: #fff;
 }
 .grid-73 .cell-73.rounded {
   border-radius: 6px;
