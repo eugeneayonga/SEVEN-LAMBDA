@@ -15,28 +15,7 @@ of your Slides Project.
 Distributed by https://freehtml5.co/
 Original design by https://designmodo.com/slides/
 
-
-/* Example media queries */
-
-/* Large devices (desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  /* CSS rules for large screens */
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 1199px) {
-  /* CSS rules for tablets */
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) {
-  /* CSS rules for small screens */
-}
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) {
-  /* CSS rules for phones */
-}
+*/
 
 /* CSS RESET */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, hr, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -471,15 +450,14 @@ body.modal-open {
 .team-grid {
   flex-wrap: wrap;
   justify-content: space-between;
-  overflow-x: auto; /* Enable horizontal scrolling if needed */
+  overflow-x: auto;
   display: flex;
   gap: 30px;
 }
 
 .team-member {
-  /* flex: 0 0 auto; Prevent shrinking and keep elements horizontally aligned */
-  flex: 1 0 100%; /* Allow elements to grow and shrink proportionally */
-  min-width: 300px; /* Ensure minimum width for each element */
+  flex: 1 0 100%;
+  min-width: 300px;
   max-width: 45%;
 }
 
