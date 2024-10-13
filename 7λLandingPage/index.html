@@ -83,6 +83,19 @@
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       }
     </style>
+
+    <style>
+      @media (min-width: 768px) {
+        .team-grid {
+          flex-direction: row;
+          align-items: flex-start;
+        }
+        .team-member {
+          flex: 1;
+          text-align: left;
+        }
+      }
+    </style>
     
   </head>  
 
@@ -353,6 +366,121 @@
     <section class="slide fade-6 kenBurns" data-name="values">
       <div class="content">
         <div class="container">
+          <div class="wrap" style="display: flex; flex-wrap: wrap; justify-content: center;">
+            <div class="fix-13-12 toCenter">
+              <div class="fix-7-12">
+                <h1 class="ae-2 fromLeft" style="margin-bottom: 4.000rem; font-size: 2.50rem;">Guiding Tenets</h1>
+              </div>
+            </div>
+            <div class="fix-7-12" style="flex: 0 0 100%; padding: 0.9375rem;">
+              <h3 style="text-align: center; font-size: 1.6875rem;"><strong style="color: #1DA1F2;">Radical User-centricity</strong></h3>
+              <p class="opacity-9" style="text-align: justify; text-align-last: left; hyphens: auto; line-height: 1.8; letter-spacing: 0.03125rem; font-size: 1.15625rem;">
+                Our users are at the heart of everything we do. We go far beyond meeting expectations, always striving to understand 
+                and anticipate their needs. By creating a seamless and delightful user experience, we build lasting relationships and 
+                become an indispensable partner to their success. Every detail is meticulously designed for them.
+              </p>
+            </div>
+            <div class="fix-7-12" style="flex: 0 0 100%; padding: 0.9375rem;">
+              <h3 style="text-align: center; font-size: 1.6875rem;"><strong style="color: #1DA1F2;">Relentless Innovation</strong></h3>
+              <p class="opacity-9" style="text-align: justify; text-align-last: left; hyphens: auto; line-height: 1.8; letter-spacing: 0.03125rem; font-size: 1.15625rem;">
+                We embrace creativity and bold thinking to revolutionize the procurement landscape globally. We push boundaries to 
+                consistently deliver exciting, and innovative solutions that exceed the evolving needs of our users. We continuously 
+                refine our approach, leveraging insights to anticipate challenges and drive impactful change in world communities.
+              </p>
+            </div>
+            <div class="fix-7-12" style="flex: 0 0 100%; padding: 0.9375rem;">
+              <h3 style="text-align: center; font-size: 1.6875rem;"><strong style="color: #1DA1F2;">Bravery</strong></h3>
+              <p class="opacity-9" style="text-align: justify; text-align-last: left; hyphens: auto; line-height: 1.8; letter-spacing: 0.03125rem; font-size: 1.15625rem;">
+                We believe that calculated risks lead to pushing humanity forward. We challenge our teams to challenge the 
+                procurement status quo, learn from our mistakes, and quickly iterate, paving the way for groundbreaking 
+                solutions and sustainable growth. We champion innovation through resilience and perpetual pursuit of excellence.
+              </p>
+            </div>
+            <div class="fix-7-12" style="flex: 0 0 100%; padding: 0.9375rem;">
+              <h3 style="text-align: center; font-size: 1.6875rem;"><strong style="color: #1DA1F2;">Ecosystem Synergy</strong></h3>
+              <p class="opacity-9" style="text-align: justify; text-align-last: left; hyphens: auto; line-height: 1.8; letter-spacing: 0.03125rem; font-size: 1.15625rem;">
+                We actively seek synergies within our ecosystem, closely partnering with both users, and stakeholders to create 
+                a seamless and vertically integrated platform. Our unwavering commitment to fostering strong relationships amplifies 
+                the collective success of our global community. Together, we achieve greater outcomes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+    @media (min-width: 768px) {
+      .wrap {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+      .fix-7-12 {
+        flex: 0 0 48%;
+        padding: 1rem;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .wrap {
+        flex-direction: column;
+      }
+      .fix-7-12 {
+        flex: 0 0 100%;
+        padding: 1rem;
+      }
+    }
+    </style>
+    <!-- <section class="slide fade-6 kenBurns" data-name="values">
+      <div class="content">
+        <div class="container">
+          <div class="wrap" style="flex-direction: column;">
+            <div class="fix-13-12 toCenter">
+              <div class="fix-7-12">
+                <h1 class="ae-2 fromLeft" style="margin-bottom: -1.875rem; font-size: 2.50rem;">Guiding Tenets</h1>
+              </div>
+            </div>
+            <div class="fix-7-12" style="flex: 0 0 100%; padding: 0.9375rem;">
+              <h3 style="text-align: center; font-size: 1.6875rem;"><strong style="color: #1DA1F2;">Radical User-centricity</strong></h3>
+              <p class="opacity-9" style="text-align: justify; text-align-last: left; hyphens: auto; line-height: 1.8; letter-spacing: 0.03125rem; font-size: 1.15625rem;">
+                Our users are at the heart of everything we do. We go far beyond meeting expectations, always striving to understand 
+                and anticipate their needs. By creating a seamless and delightful user experience, we build lasting relationships and 
+                become an indispensable partner to their success. Every detail is meticulously designed for them.
+              </p>
+            </div>
+            <div class="fix-7-12" style="flex: 0 0 100%; padding: 0.9375rem;">
+              <h3 style="text-align: center; font-size: 1.6875rem;"><strong style="color: #1DA1F2;">Relentless Innovation</strong></h3>
+              <p class="opacity-9" style="text-align: justify; text-align-last: left; hyphens: auto; line-height: 1.8; letter-spacing: 0.03125rem; font-size: 1.15625rem;">
+                We embrace creativity and bold thinking to revolutionize the procurement landscape globally. We push boundaries to 
+                consistently deliver exciting, and innovative solutions that exceed the evolving needs of our users. We continuously 
+                refine our approach, leveraging insights to anticipate challenges and drive impactful change in world communities.
+              </p>
+            </div>
+            <div class="fix-7-12" style="flex: 0 0 100%; padding: 0.9375rem;">
+              <h3 style="text-align: center; font-size: 1.6875rem;"><strong style="color: #1DA1F2;">Bravery</strong></h3>
+              <p class="opacity-9" style="text-align: justify; text-align-last: left; hyphens: auto; line-height: 1.8; letter-spacing: 0.03125rem; font-size: 1.15625rem;">
+                We believe that calculated risks lead to pushing humanity forward. We challenge our teams to challenge the 
+                procurement status quo, learn from our mistakes, and quickly iterate, paving the way for groundbreaking 
+                solutions and sustainable growth. We champion innovation through resilience and perpetual pursuit of excellence.
+              </p>
+            </div>
+            <div class="fix-7-12" style="flex: 0 0 100%; padding: 0.9375rem;">
+              <h3 style="text-align: center; font-size: 1.6875rem;"><strong style="color: #1DA1F2;">Ecosystem Synergy</strong></h3>
+              <p class="opacity-9" style="text-align: justify; text-align-last: left; hyphens: auto; line-height: 1.8; letter-spacing: 0.03125rem; font-size: 1.15625rem;">
+                We actively seek synergies within our ecosystem, closely partnering with both users, and stakeholders to create 
+                a seamless and vertically integrated platform. Our unwavering commitment to fostering strong relationships amplifies 
+                the collective success of our global community. Together, we achieve greater outcomes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <section class="slide fade-6 kenBurns" data-name="values">
+      <div class="content">
+        <div class="container">
           <div class="wrap">
             <div class="fix-13-12 toCenter">
               <div class="fix-7-12">
@@ -400,15 +528,16 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- TEAM -->
+
     <section class="slide fade-6 kenBurns" data-name="team">
       <div class="content">
         <div class="container">
           <div class="wrap">
             <div class="fix-10-12">
-              <h1 class="ae-2 fromLeft" style="text-align: center; margin-bottom: 5.50rem; font-size: 2.50rem;">The Crazy One</h1>
+              <h1 class="ae-2 fromLeft" style="text-align: center; margin-bottom: 5.50rem; margin-top: -2.25rem; font-size: 2.50rem;">The Crazy One</h1>
               <div class="team-grid ae-2 fadeIn" style="display: flex; align-items: flex-start; gap: 2rem;">
                 <div class="left-side" style="flex: 1 0 40%; text-align: center;">
                   <img src="assets/img/CEO_Headshot.png" alt="CEO" style="border-radius: 50%; width: 13.5rem; height: 13.5rem; margin-bottom: 0.3125rem; margin-top: 5.50rem">
@@ -436,6 +565,101 @@
       </div>
     </section>
 
+    <!-- <section class="slide fade-6 kenBurns" data-name="team" style="display: block;">
+      <div class="content" style="display: block;">
+        <div class="container" style="display: block; max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+          <div class="wrap" style="display: block;">
+            <div class="fix-10-12" style="display: block; max-width: 100%; margin: 0 auto; padding: 0 20px;">
+              <h1 class="ae-2 fromLeft" style="text-align: center; margin-bottom: 5.50rem; font-size: 2.50rem;">The Crazy One</h1>
+              <div class="team-grid ae-2 fadeIn" style="display: flex; flex-direction: column; align-items: flex-start; gap: 2rem; flex-wrap: wrap;">
+                <div class="team-member" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                  <img src="assets/img/CEO_Headshot.png" alt="CEO" style="border-radius: 50%; width: 13.5rem; height: 13.5rem; margin-bottom: 0.3125rem; margin-top: 5.50rem;">
+                  <div class="designation" style="font-size: 1.5em; margin-bottom: 0.9375rem; margin-top: 1.25rem;">Founder & CEO</div>
+                  <h3 style="font-size: 1.6em; color: #1DA1F2; margin-bottom: 0.9375rem;"><strong>Gene Ayonga</strong></h3>
+                  <p class="opacity-9 team-bio" style="text-align: justify; text-align-last: left; hyphens: auto; line-height: 1.8; letter-spacing: 0.03125rem; font-size: 1.15625rem;">
+                    Gene is an MS Data Science candidate at the University of Rochester. Born and raised in a small and impoverished village in Kenya, his journey embodies 
+                    grit, courage, and relentless optimism. Growing up, he built steerable wire cars, soccer balls from polythene and straws, and took apart electronics to explore their workings. At age 8, his passion for technology was ignited when he played Super Mario on his father's Compaq.
+                    <br><br>
+                    Ayonga’s ambition drove him to Kenyatta University, where he earned First Class Honors in BSc Petroleum Engineering, 
+                    paving the way for him to pursue opportunity in a magical place - America. Driven by values instilled in him by his parents and community; and by technology's potential 
+                    to disrupt the global procurement industry, he shapes our vision and circles the wagons to build a solid foundation for mission success.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    
+
+    <!-- Inline CSS to make the layout adaptable -->
+    <style>
+    @media (min-width: 768px) {
+      .team-grid {
+        flex-direction: row;
+      }
+      .team-member {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+      }
+      .team-member img {
+        margin-right: 2rem;
+        margin-bottom: 0;
+      }
+      .team-bio {
+        max-width: 60%;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .team-grid {
+        flex-direction: column;
+      }
+      .team-member {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .team-member img {
+        margin-bottom: 0.9375rem;
+      }
+      .team-bio {
+        max-width: 100%;
+      }
+    }
+    </style>
+
+    <!-- <section class="slide fade-6 kenBurns" data-name="team" style="display: block;">
+      <div class="content" style="display: block;">
+        <div class="container" style="display: block; max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+          <div class="wrap" style="display: block;">
+            <div class="fix-10-12" style="display: block; max-width: 100%; margin: 0 auto; padding: 0 20px;">
+              <h1 class="ae-2 fromLeft" style="text-align: center; margin-bottom: 5.50rem; font-size: 2.50rem;">The Crazy One</h1>
+              <div class="team-grid ae-2 fadeIn" style="display: flex; flex-direction: row; align-items: flex-start; gap: 2rem;">
+                <div class="team-member" style="flex: 1; text-align: center;">
+                  <img src="assets/img/CEO_Headshot.png" alt="CEO" style="border-radius: 50%; width: 13.5rem; height: 13.5rem; margin-bottom: 0.3125rem; margin-top: 5.50rem;">
+                  <div class="designation" style="font-size: 1.5em; margin-bottom: 0.9375rem; margin-top: 1.25rem;">Founder & CEO</div>
+                  <h3 style="font-size: 1.6em; color: #1DA1F2; margin-bottom: 0.9375rem;"><strong>Gene Ayonga</strong></h3>
+                  <p class="opacity-9 team-bio" style="text-align: justify; text-align-last: left; hyphens: auto; line-height: 1.8; letter-spacing: 0.03125rem; font-size: 1.15625rem;">
+                    Gene is an MS Data Science candidate at the University of Rochester. Born and raised in a small and impoverished village in Kenya, his journey embodies 
+                    grit, courage, and relentless optimism. Growing up, he built steerable wire cars, soccer balls from polythene and straws, and took apart electronics to explore their workings. At age 8, his passion for technology was ignited when he played Super Mario on his father's Compaq.
+                    <br><br>
+                    Ayonga’s ambition drove him to Kenyatta University, where he earned First Class Honors in BSc Petroleum Engineering, 
+                    paving the way for him to pursue opportunity in a magical place - America. Driven by values instilled in him by his parents and community; and by technology's potential 
+                    to disrupt the global procurement industry, he shapes our vision and circles the wagons to build a solid foundation for mission success.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
     <!-- CONTACT -->
     <section class="slide fade-6 kenBurns" data-name="contact" id="contact-form">
       <div class="content">
@@ -443,7 +667,7 @@
           <div class="wrap">
             <div class="fix-10-12">
               <h1 class="ae-1" style="margin-bottom: 5.800rem; font-size: 2.50rem;">Procure the future</h1>
-              <div class="contact-grid ae-2 fadeIn" style="display: flex; gap: 10mm; width: 100%; height: 21.875rem;">
+              <div class="contact-grid ae-2 fadeIn" style="display: flex; gap: 40mm; width: 100%; height: 21.875rem;">
                 <div class="contact-info-wrapper" style="display: flex; flex-direction: column; width: 40%; margin-top: 5.1625rem;">
                   <!-- Phone -->
                   <div style="padding: 1.000rem; text-align: left; vertical-align: middle;">
@@ -474,7 +698,7 @@
                 <div class="map-container ae-4" style="flex: 1;">
                   <iframe 
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d504021.2322271984!2d-123.03189351794777!3d37.757814967352776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c128b7a4d%3A0xe2b7d155ba9f992!2sSan%20Francisco%20Bay%20Area%2C%20CA!5e0!3m2!1sen!2sus!4v1693922652765!5m2!1sen!2sus" 
-                      style="border:0; flex: 1; width: 100%; height: 100%;" 
+                      style="border:0; flex: 1; width: 120%; height: 100%;" 
                       allowfullscreen="" 
                       loading="lazy">
                   </iframe>
